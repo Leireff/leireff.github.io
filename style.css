@@ -1,0 +1,250 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+
+header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background-color: #ede7e7;
+}
+
+.logo-container, .nav-links, .cart {
+    display: flex;
+}
+
+.logo-container {
+    flex: 1;
+}
+
+#logoid {
+    width: 160px;
+    margin-left: 20px;
+}
+
+nav {
+    flex: 2;
+}
+
+.nav-links {
+    justify-content: space-around;
+    list-style: none;
+}
+
+
+
+.nav-link {
+    color: #121111;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #574142;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.cart {
+    flex: 1;
+    justify-content: flex-end;
+    margin-right: 30px;
+    margin-left: -80px;
+}
+
+.cart:hover {
+    cursor: pointer;
+}
+
+.presentation {
+    display: flex;
+	width: 90%;
+	margin: auto;
+	min-height: 80vh;
+	align-items: center;
+    margin-bottom: 90px;
+}
+
+.introduction {
+    flex: 1;
+    margin-right: 200px;
+    margin-left: 90px;
+}
+
+.intro-text h1 {
+    font-size: 42px;
+    font-weight: 500;
+    color: #121111;
+}
+
+.intro-text p {
+    margin-top: 25px;
+    font-size: 18px;
+    color: #121111;
+}
+
+.cta {
+    padding: 50px 0px 0px 0px;
+    text-align: center;
+}
+
+.discover-btn {
+    border: 2px solid #574142;
+    background: transparent;
+    color: #574142;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    
+}
+
+.discover-btn:hover {
+    background: #574142;
+    color: white;
+    transition: 0.2s;
+}
+
+
+
+.cover img {
+    width: 80%;
+    border-radius: 15px;
+}
+
+.cover {
+    flex: 1;
+}
+
+.first-details {
+    display: flex;
+	width: 50%;
+	margin: auto;
+	align-items: center;
+
+}
+
+.fait-main {
+    text-align: center;
+    padding: 25px;
+}
+
+.fait-main h3 {
+    margin-bottom: 10px;
+}
+
+.fait-main:hover {
+    border-radius: 10%;
+    transition: 0.4s;
+}
+
+.first-img img {
+    width: 40%;
+    margin-left: 300px;
+    border-radius: 50%;
+}
+
+.second-details {
+    display: flex;
+	width: 50%;
+	margin: auto;
+	min-height: 60vh;
+	align-items: center;
+}
+
+.personnalisable {
+    text-align: center;
+    padding: 25px;
+}
+
+.personnalisable h3 {
+    margin-bottom: 10px;
+}
+
+.personnalisable:hover {
+    border-radius: 10%;
+    transition: 0.4s;
+}
+
+.second-img img {
+    width: 40%;
+    margin-right: 300px;
+    border-radius: 50%;
+}
+
+.third-details {
+    display: flex;
+	width: 50%;
+	margin: auto;
+	align-items: center;
+
+}
+
+.prix-raisonnables {
+    text-align: center;
+    padding: 25px;
+}
+
+.prix-raisonnables h3 {
+    margin-bottom: 10px;
+}
+
+.prix-raisonnables:hover {
+    border-radius: 10%;
+    transition: 0.4s;
+}
+
+.third-img img {
+    width: 40%;
+    margin-left: 300px;
+    border-radius: 50%;
+}
+
+footer {
+    margin-top: 100px;
+    height: 120px;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #ede7e7;
+}
+
+@media all and (max-width: 1024px) {
+   .presentation {
+        flex-direction: column;
+   }
+   .introduction {
+        margin-top: 5vh;
+        text-align: center;
+    }
+    .cta {
+        padding: 10px 0px 0px 0px;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+    .intro-text h1 {
+        font-size: 36px;
+    }
+    .intro-text p {
+        font-size: 16px;
+    }
+    .cover img {
+        width: 100%;
+    }
+    .details {
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
